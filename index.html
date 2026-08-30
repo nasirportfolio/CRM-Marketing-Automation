@@ -4,13 +4,11 @@
 <head>
     <meta charset="UTF-8">
 
-    <!-- Mobile Responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Primary SEO -->
-    <title>CRM & Marketing Automation | Guides, Strategies & Software</title>
+    <title>CRM & Marketing Automation: Complete Guides, Strategies & Tools</title>
 
-    <meta name="description" content="Learn CRM, marketing automation, customer relationship management, lead generation, email automation, workflows, CRM software, integrations and automation strategies with practical guides and tutorials.">
+    <meta name="description" content="Explore practical CRM and marketing automation guides covering customer relationship management, lead generation, email automation, workflows, CRM software, integrations, sales automation and AI automation.">
 
     <meta name="robots" content="index, follow">
 
@@ -18,41 +16,50 @@
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="CRM & Marketing Automation | Guides, Strategies & Software">
-    <meta property="og:description" content="Practical guides and tutorials about CRM, marketing automation, lead management, email automation, workflows, CRM software and integrations.">
+    <meta property="og:title" content="CRM & Marketing Automation: Complete Guides, Strategies & Tools">
+    <meta property="og:description" content="Practical guides and resources covering CRM, marketing automation, lead management, email automation, workflows, software and integrations.">
     <meta property="og:url" content="https://nasirportfolio.github.io/CRM-Marketing-Automation/">
 
-    <!-- Theme -->
-    <meta name="theme-color" content="#ffffff">
+    <!-- Google Search Console Ownership Verification -->
+    <meta name="google-site-verification" content="LviZ4BhfKcX1otA4BRb0jt0-qgJhL0Z7nDXqKQmO0II">
 
-    <!-- Structured Data: Website -->
+    <!-- Google Analytics 4 -->
+    <!-- Replace G-XXXXXXXXXX with your real GA4 Measurement ID after creating the GA4 property -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+
+    <!-- Website Structured Data -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "WebSite",
         "name": "CRM & Marketing Automation",
         "url": "https://nasirportfolio.github.io/CRM-Marketing-Automation/",
-        "description": "Practical guides and educational resources about CRM and marketing automation.",
-        "publisher": {
+        "description": "A comprehensive educational resource about CRM and marketing automation.",
+        "author": {
             "@type": "Person",
             "name": "Muhammad Nasir Uddin"
         }
     }
     </script>
 
-    <!-- Structured Data: WebPage -->
+    <!-- WebPage Structured Data -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": "CRM & Marketing Automation",
         "url": "https://nasirportfolio.github.io/CRM-Marketing-Automation/",
-        "description": "Learn CRM, marketing automation, lead management, email automation, workflows, CRM software and integrations.",
-        "isPartOf": {
-            "@type": "WebSite",
-            "name": "CRM & Marketing Automation",
-            "url": "https://nasirportfolio.github.io/CRM-Marketing-Automation/"
-        },
+        "description": "Practical guides covering CRM, marketing automation, lead management, email automation, workflows, software and integrations.",
         "author": {
             "@type": "Person",
             "name": "Muhammad Nasir Uddin"
@@ -65,43 +72,49 @@
             box-sizing: border-box;
         }
 
+        html {
+            scroll-behavior: smooth;
+        }
+
         body {
             margin: 0;
             font-family: Arial, Helvetica, sans-serif;
-            line-height: 1.7;
             color: #222;
-            background: #ffffff;
+            background: #fff;
+            line-height: 1.7;
         }
 
         header {
-            background: #f5f7fa;
-            padding: 50px 20px;
+            background: #f4f7fb;
+            border-bottom: 1px solid #e2e7ed;
+            padding: 70px 20px;
             text-align: center;
-            border-bottom: 1px solid #e5e7eb;
         }
 
         header h1 {
-            margin: 0 auto 15px;
-            max-width: 900px;
-            font-size: 42px;
+            max-width: 950px;
+            margin: 0 auto 20px;
+            font-size: 44px;
             line-height: 1.2;
         }
 
         header p {
-            max-width: 760px;
+            max-width: 800px;
             margin: 0 auto;
             font-size: 19px;
             color: #555;
         }
 
         nav {
-            text-align: center;
+            background: #fff;
+            border-bottom: 1px solid #e2e7ed;
             padding: 15px 20px;
-            border-bottom: 1px solid #e5e7eb;
+            text-align: center;
         }
 
         nav a {
-            margin: 0 10px;
+            display: inline-block;
+            margin: 5px 12px;
             color: #1457a6;
             text-decoration: none;
             font-weight: 600;
@@ -112,65 +125,77 @@
         }
 
         main {
-            max-width: 1100px;
-            margin: 0 auto;
-            padding: 40px 20px;
+            max-width: 1120px;
+            margin: auto;
+            padding: 50px 20px;
         }
 
         section {
-            margin-bottom: 50px;
+            margin-bottom: 60px;
         }
 
         h2 {
-            font-size: 30px;
-            margin-bottom: 15px;
+            margin-bottom: 18px;
+            font-size: 31px;
+            line-height: 1.3;
         }
 
         h3 {
+            margin-top: 0;
             font-size: 21px;
-            margin-bottom: 8px;
+            line-height: 1.4;
         }
 
-        .intro {
+        p {
+            margin-top: 0;
+        }
+
+        .lead {
             font-size: 18px;
         }
 
-        .categories {
+        .grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-            gap: 20px;
-            margin-top: 25px;
+            gap: 22px;
+            margin-top: 28px;
         }
 
-        .category {
-            border: 1px solid #e1e5ea;
+        .card {
+            border: 1px solid #dfe5eb;
             border-radius: 8px;
-            padding: 22px;
+            padding: 25px;
             background: #fff;
         }
 
-        .category a {
+        .card h3 {
+            margin-bottom: 10px;
+        }
+
+        .card a {
             color: #1457a6;
             text-decoration: none;
         }
 
-        .category a:hover {
+        .card a:hover {
             text-decoration: underline;
         }
 
-        .articles {
-            margin-top: 20px;
+        .article-list {
+            border-top: 1px solid #e2e7ed;
         }
 
         .article {
-            padding: 18px 0;
-            border-bottom: 1px solid #e5e7eb;
+            padding: 20px 0;
+            border-bottom: 1px solid #e2e7ed;
+        }
+
+        .article h3 {
+            margin-bottom: 8px;
         }
 
         .article a {
             color: #1457a6;
-            font-size: 20px;
-            font-weight: 600;
             text-decoration: none;
         }
 
@@ -178,15 +203,15 @@
             text-decoration: underline;
         }
 
-        .about-box {
-            background: #f5f7fa;
-            padding: 25px;
+        .note {
+            background: #f4f7fb;
             border-radius: 8px;
+            padding: 25px;
         }
 
         footer {
-            border-top: 1px solid #e5e7eb;
-            padding: 30px 20px;
+            border-top: 1px solid #e2e7ed;
+            padding: 35px 20px;
             text-align: center;
             color: #666;
         }
@@ -194,12 +219,16 @@
         footer a {
             color: #1457a6;
             text-decoration: none;
-            margin: 0 8px;
         }
 
         @media (max-width: 700px) {
+
+            header {
+                padding: 50px 20px;
+            }
+
             header h1 {
-                font-size: 32px;
+                font-size: 33px;
             }
 
             header p {
@@ -207,12 +236,11 @@
             }
 
             h2 {
-                font-size: 26px;
+                font-size: 27px;
             }
 
             nav a {
-                display: inline-block;
-                margin: 5px 7px;
+                margin: 4px 7px;
             }
         }
     </style>
@@ -221,263 +249,441 @@
 <body>
 
 <header>
+
     <h1>CRM &amp; Marketing Automation</h1>
 
     <p>
-        Practical guides, tutorials and resources for learning customer
-        relationship management, marketing automation, lead management,
-        email automation, workflows, CRM software and business automation.
+        Practical guides, strategies, tutorials and resources for
+        understanding customer relationship management, marketing
+        automation, lead management, email automation, workflows,
+        CRM software and business automation.
     </p>
+
 </header>
 
 <nav aria-label="Main navigation">
-    <a href="index.html">Home</a>
+
     <a href="#crm">CRM</a>
-    <a href="#automation">Marketing Automation</a>
-    <a href="#software">CRM Software</a>
+    <a href="#marketing-automation">Marketing Automation</a>
+    <a href="#lead-management">Lead Management</a>
+    <a href="#software">Software</a>
     <a href="#articles">Articles</a>
+
 </nav>
 
 <main>
 
     <section>
-        <h2>Learn CRM and Marketing Automation</h2>
 
-        <p class="intro">
-            Welcome to the CRM &amp; Marketing Automation resource center.
-            This website provides practical and educational content designed
-            to help beginners, marketers, freelancers, small businesses and
-            growing teams understand CRM systems and marketing automation.
+        <h2>Welcome to CRM &amp; Marketing Automation</h2>
+
+        <p class="lead">
+            This website is an educational resource dedicated to
+            customer relationship management and marketing automation.
+            It is designed to help beginners, marketers, freelancers,
+            small businesses and professionals understand how CRM
+            systems and automation can improve customer relationships,
+            marketing processes and sales operations.
         </p>
 
         <p>
-            Explore topics including customer relationship management,
-            lead generation, lead nurturing, customer segmentation,
-            email automation, marketing workflows, CRM integrations,
-            sales automation and CRM software.
+            Explore practical explanations of CRM concepts, marketing
+            automation, lead generation, lead nurturing, customer
+            segmentation, email automation, sales automation, workflows,
+            CRM integrations and business software.
         </p>
+
     </section>
 
     <section id="crm">
+
         <h2>CRM Guides</h2>
 
-        <div class="categories">
+        <p>
+            Learn the fundamentals of customer relationship management
+            and understand how CRM systems organize customer information,
+            leads, sales activities and business relationships.
+        </p>
 
-            <article class="category">
-                <h3>
-                    <a href="#crm-fundamentals">
-                        CRM Fundamentals
-                    </a>
-                </h3>
+        <div class="grid">
+
+            <article class="card">
+
+                <h3>CRM Fundamentals</h3>
+
                 <p>
-                    Learn what CRM is, how CRM systems work, CRM databases,
-                    contacts, leads, pipelines, sales stages and customer
-                    relationship management.
+                    Understand what CRM means, how CRM systems work,
+                    CRM databases, contacts, leads, opportunities,
+                    pipelines and customer information.
                 </p>
+
             </article>
 
-            <article class="category">
-                <h3>
-                    <a href="#lead-management">
-                        Lead Management
-                    </a>
-                </h3>
+            <article class="card">
+
+                <h3>CRM Strategy</h3>
+
                 <p>
-                    Learn about lead generation, lead qualification,
-                    lead nurturing, lead scoring and managing prospects
-                    throughout the customer journey.
+                    Learn how businesses develop CRM strategies,
+                    organize customer data and improve sales and
+                    customer relationship processes.
                 </p>
+
             </article>
 
-            <article class="category">
-                <h3>
-                    <a href="#crm-strategy">
-                        CRM Strategy
-                    </a>
-                </h3>
+            <article class="card">
+
+                <h3>CRM Implementation</h3>
+
                 <p>
-                    Discover CRM strategies, implementation planning,
-                    customer data management, sales processes and CRM
-                    best practices.
+                    Learn about CRM implementation, planning,
+                    data migration, configuration, user adoption
+                    and CRM best practices.
                 </p>
+
             </article>
 
-            <article class="category">
-                <h3>
-                    <a href="#crm-integrations">
-                        CRM Integrations
-                    </a>
-                </h3>
+            <article class="card">
+
+                <h3>CRM Integrations</h3>
+
                 <p>
-                    Understand how CRM systems connect with email marketing,
-                    e-commerce, forms, analytics, sales tools and other
-                    business applications.
+                    Understand how CRM platforms connect with
+                    email marketing, e-commerce, analytics,
+                    forms and other business applications.
                 </p>
+
             </article>
 
         </div>
+
     </section>
 
-    <section id="automation">
+    <section id="marketing-automation">
+
         <h2>Marketing Automation</h2>
 
-        <div class="categories">
+        <p>
+            Marketing automation uses technology and workflows to
+            automate repetitive marketing activities and deliver
+            relevant communication throughout the customer journey.
+        </p>
 
-            <article class="category">
-                <h3>
-                    <a href="#automation-basics">
-                        Marketing Automation Basics
-                    </a>
-                </h3>
-                <p>
-                    Learn the fundamentals of marketing automation and how
-                    businesses use automated processes to improve marketing
-                    and customer communication.
-                </p>
-            </article>
+        <div class="grid">
 
-            <article class="category">
-                <h3>
-                    <a href="#email-automation">
-                        Email Automation
-                    </a>
-                </h3>
-                <p>
-                    Learn about automated email campaigns, welcome sequences,
-                    customer journeys, follow-ups, segmentation and
-                    behavioral email automation.
-                </p>
-            </article>
+            <article class="card">
 
-            <article class="category">
-                <h3>
-                    <a href="#workflows">
-                        Automation Workflows
-                    </a>
-                </h3>
+                <h3>Marketing Automation Basics</h3>
+
                 <p>
-                    Explore workflow concepts such as triggers, actions,
-                    conditions, sequences, lead nurturing and automated
+                    Learn the principles of marketing automation,
+                    automation triggers, actions, conditions and
                     customer journeys.
                 </p>
+
             </article>
 
-            <article class="category">
-                <h3>
-                    <a href="#sales-automation">
-                        Sales Automation
-                    </a>
-                </h3>
+            <article class="card">
+
+                <h3>Email Automation</h3>
+
+                <p>
+                    Explore welcome sequences, follow-up emails,
+                    behavioral automation, customer journeys and
+                    automated email campaigns.
+                </p>
+
+            </article>
+
+            <article class="card">
+
+                <h3>Automation Workflows</h3>
+
+                <p>
+                    Understand workflow design, triggers, actions,
+                    conditions, delays, branching and automated
+                    customer processes.
+                </p>
+
+            </article>
+
+            <article class="card">
+
+                <h3>Sales Automation</h3>
+
                 <p>
                     Learn how automation can support lead follow-up,
-                    sales pipelines, task management, customer communication
-                    and sales processes.
+                    sales pipelines, tasks, notifications and
+                    customer communication.
                 </p>
+
             </article>
 
         </div>
+
+    </section>
+
+    <section id="lead-management">
+
+        <h2>Lead Management &amp; Customer Journeys</h2>
+
+        <div class="grid">
+
+            <article class="card">
+
+                <h3>Lead Generation</h3>
+
+                <p>
+                    Learn how businesses attract potential customers
+                    and collect qualified leads through digital
+                    marketing channels.
+                </p>
+
+            </article>
+
+            <article class="card">
+
+                <h3>Lead Qualification</h3>
+
+                <p>
+                    Understand lead qualification, scoring and the
+                    process of identifying prospects that are more
+                    likely to become customers.
+                </p>
+
+            </article>
+
+            <article class="card">
+
+                <h3>Lead Nurturing</h3>
+
+                <p>
+                    Learn how automated communication can educate,
+                    engage and move prospects through the customer
+                    journey.
+                </p>
+
+            </article>
+
+            <article class="card">
+
+                <h3>Customer Segmentation</h3>
+
+                <p>
+                    Understand how customer data can be divided into
+                    meaningful groups for more relevant communication
+                    and automation.
+                </p>
+
+            </article>
+
+        </div>
+
     </section>
 
     <section id="software">
+
         <h2>CRM &amp; Marketing Automation Software</h2>
 
         <p>
             CRM and marketing automation platforms provide tools for
-            managing customer information, automating marketing activities,
-            organizing sales pipelines and improving customer relationships.
+            managing customer relationships, automating marketing
+            activities, organizing sales pipelines and improving
+            customer experiences.
         </p>
 
-        <p>
-            Future software guides will cover features, pricing, workflows,
-            integrations, use cases, comparisons, alternatives and practical
-            tutorials for leading CRM and marketing automation platforms.
-        </p>
+        <div class="grid">
 
-        <div class="categories">
+            <article class="card">
 
-            <article class="category">
                 <h3>CRM Software</h3>
+
                 <p>
-                    Learn how different CRM platforms manage contacts,
-                    leads, pipelines, sales activities and customer data.
+                    Explore CRM software concepts, features, use cases,
+                    pricing, implementation and practical applications.
                 </p>
+
             </article>
 
-            <article class="category">
+            <article class="card">
+
                 <h3>Marketing Automation Software</h3>
+
                 <p>
-                    Explore platforms designed to automate campaigns,
-                    customer journeys, lead nurturing and marketing tasks.
+                    Learn how marketing automation platforms support
+                    campaigns, workflows, lead nurturing and customer
+                    journeys.
                 </p>
+
             </article>
 
-            <article class="category">
-                <h3>Software Comparisons</h3>
+            <article class="card">
+
+                <h3>Software Reviews</h3>
+
                 <p>
-                    Compare CRM and marketing automation platforms by
-                    features, pricing, use cases, integrations and
-                    automation capabilities.
+                    Future software reviews will examine features,
+                    pricing, usability, automation capabilities,
+                    integrations and suitable use cases.
                 </p>
+
             </article>
 
-            <article class="category">
-                <h3>Software Alternatives</h3>
+            <article class="card">
+
+                <h3>Comparisons &amp; Alternatives</h3>
+
                 <p>
-                    Discover alternatives to popular CRM and marketing
-                    automation platforms and understand which solutions
-                    may fit different business needs.
+                    Compare CRM and automation platforms based on
+                    features, pricing, use cases and business needs.
                 </p>
+
             </article>
 
         </div>
+
+    </section>
+
+    <section>
+
+        <h2>CRM Automation Topics</h2>
+
+        <div class="grid">
+
+            <article class="card">
+
+                <h3>Customer Data</h3>
+
+                <p>
+                    Learn about customer records, data organization,
+                    contact management, data quality and CRM databases.
+                </p>
+
+            </article>
+
+            <article class="card">
+
+                <h3>Customer Journeys</h3>
+
+                <p>
+                    Understand how businesses use automated journeys
+                    to guide customers from awareness to retention.
+                </p>
+
+            </article>
+
+            <article class="card">
+
+                <h3>Personalization</h3>
+
+                <p>
+                    Learn how customer data and behavioral information
+                    can support personalized marketing communication.
+                </p>
+
+            </article>
+
+            <article class="card">
+
+                <h3>AI &amp; Automation</h3>
+
+                <p>
+                    Explore the growing role of artificial intelligence
+                    in CRM, marketing automation, customer data and
+                    business workflows.
+                </p>
+
+            </article>
+
+        </div>
+
     </section>
 
     <section id="articles">
-        <h2>Latest CRM &amp; Marketing Automation Articles</h2>
 
-        <div class="articles">
-
-            <!-- Add published article links here as articles are created -->
-
-            <div class="article">
-                <p>
-                    New CRM and marketing automation articles will be
-                    published here as the resource library grows.
-                </p>
-            </div>
-
-        </div>
-    </section>
-
-    <section>
-        <h2>Who This Resource Is For</h2>
+        <h2>Latest Articles</h2>
 
         <p>
-            This resource is designed for beginners learning CRM,
-            marketers interested in automation, freelancers developing
-            digital marketing skills, small businesses exploring CRM
-            software, and professionals who want to understand automated
-            customer journeys and business processes.
+            Explore the growing library of CRM and marketing automation
+            resources. New articles will be added as the knowledge base
+            develops.
         </p>
+
+        <div class="article-list">
+
+            <!--
+            Add real article links here as articles are published.
+            Example:
+
+            <article class="article">
+                <h3>
+                    <a href="0001-article-name.html">
+                        Article Title
+                    </a>
+                </h3>
+                <p>
+                    Short description of the article.
+                </p>
+            </article>
+            -->
+
+            <article class="article">
+
+                <h3>CRM &amp; Marketing Automation Knowledge Base</h3>
+
+                <p>
+                    Practical articles covering CRM fundamentals,
+                    marketing automation, lead management, workflows,
+                    software, integrations and related topics will be
+                    published here.
+                </p>
+
+            </article>
+
+        </div>
+
     </section>
 
     <section>
-        <h2>About This Website</h2>
 
-        <div class="about-box">
+        <h2>Who This Website Is For</h2>
+
+        <div class="note">
+
             <p>
-                CRM &amp; Marketing Automation is an educational resource
-                created by <strong>Muhammad Nasir Uddin</strong> to provide
-                practical information about customer relationship management,
-                marketing automation and related business technologies.
+                This resource is designed for beginners, marketers,
+                freelancers, small business owners, sales professionals
+                and anyone interested in learning CRM and marketing
+                automation.
             </p>
 
             <p>
-                The long-term goal is to build a comprehensive library of
-                high-quality articles covering CRM, automation, software,
-                integrations, strategies and practical implementation.
+                The goal is to provide clear, practical and useful
+                information rather than simply producing large amounts
+                of content.
             </p>
+
         </div>
+
+    </section>
+
+    <section>
+
+        <h2>About the Author</h2>
+
+        <p>
+            CRM &amp; Marketing Automation is created by
+            <strong>Muhammad Nasir Uddin</strong> as an educational
+            resource focused on customer relationship management,
+            marketing automation and related business technologies.
+        </p>
+
+        <p>
+            The website is being developed as a long-term knowledge
+            library with an emphasis on practical, accurate and
+            high-quality resources.
+        </p>
+
     </section>
 
 </main>
