@@ -1,1 +1,5 @@
 
+User-agent: *
+Allow: /
+
+Sitemap: https://nasirportfolio.github.io/CRM-Marketing-Automation/sitemap.xml
