@@ -16,6 +16,10 @@ content="Contact CRM & Marketing Automation for questions, feedback, suggestions
     box-sizing:border-box;
 }
 
+html{
+    width:100%;
+}
+
 body{
     font-family:Arial,sans-serif;
     margin:0;
@@ -32,10 +36,12 @@ header{
 
 header h1{
     margin:0;
+    font-size:32px;
 }
 
 .container{
     max-width:800px;
+    width:calc(100% - 40px);
     margin:30px auto;
     background:#fff;
     padding:30px;
@@ -45,6 +51,7 @@ header h1{
 
 h2{
     color:#0d6efd;
+    margin-top:0;
 }
 
 p{
@@ -52,12 +59,14 @@ p{
     line-height:1.8;
 }
 
-a{
+.email-link{
     color:#0d6efd;
     text-decoration:none;
+    font-weight:normal;
+    display:inline;
 }
 
-a:hover{
+.email-link:hover{
     text-decoration:underline;
 }
 
@@ -85,6 +94,12 @@ footer p{
 
     p{
         font-size:17px;
+        line-height:1.7;
+    }
+
+    .email-link{
+        overflow-wrap:anywhere;
+        word-break:break-word;
     }
 
 }
@@ -95,7 +110,9 @@ footer p{
 <body>
 
 <header>
+
 <h1>Contact</h1>
+
 </header>
 
 <div class="container">
@@ -123,8 +140,9 @@ website-related inquiries, please send us an email.
 </p>
 
 <p>
-📧 Email:
-<a href="mailto:nasirslec@gmail.com">nasirslec@gmail.com</a>
+<a class="email-link" href="mailto:nasirslec@gmail.com">
+📧 Email: nasirslec@gmail.com
+</a>
 </p>
 
 <h2>Before Contacting Us</h2>
@@ -144,7 +162,11 @@ us improve the quality and usefulness of this website.
 </div>
 
 <footer>
-<p>&copy; 2026 CRM & Marketing Automation. All Rights Reserved.</p>
+
+<p>
+&copy; 2026 CRM & Marketing Automation. All Rights Reserved.
+</p>
+
 </footer>
 
 </body>
