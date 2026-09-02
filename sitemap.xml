@@ -1,47 +1,76 @@
-```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
     <loc>https://nasirportfolio.github.io/CRM-Marketing-Automation/</loc>
   </url>
+
   <url>
     <loc>https://nasirportfolio.github.io/CRM-Marketing-Automation/about.html</loc>
   </url>
+
   <url>
     <loc>https://nasirportfolio.github.io/CRM-Marketing-Automation/affiliate-disclosure.html</loc>
   </url>
+
   <url>
     <loc>https://nasirportfolio.github.io/CRM-Marketing-Automation/articles/0001-what-is-crm.html</loc>
   </url>
+
   <url>
     <loc>https://nasirportfolio.github.io/CRM-Marketing-Automation/articles/0002-what-is-marketing-automation.html</loc>
   </url>
+
   <url>
     <loc>https://nasirportfolio.github.io/CRM-Marketing-Automation/articles/0003-what-is-a-crm-pipeline.html</loc>
   </url>
+
   <url>
     <loc>https://nasirportfolio.github.io/CRM-Marketing-Automation/articles/0004-what-is-lead-management.html</loc>
   </url>
+
   <url>
     <loc>https://nasirportfolio.github.io/CRM-Marketing-Automation/articles/0005-what-is-lead-qualification.html</loc>
   </url>
+
   <url>
     <loc>https://nasirportfolio.github.io/CRM-Marketing-Automation/articles/0006-what-is-a-sales-funnel.html</loc>
   </url>
+
   <url>
     <loc>https://nasirportfolio.github.io/CRM-Marketing-Automation/articles/0007-what-is-lead-nurturing.html</loc>
   </url>
+
   <url>
     <loc>https://nasirportfolio.github.io/CRM-Marketing-Automation/articles/0008-what-is-lead-scoring.html</loc>
   </url>
+
   <url>
     <loc>https://nasirportfolio.github.io/CRM-Marketing-Automation/articles/0009-what-is-crm-software.html</loc>
   </url>
+
   <url>
     <loc>https://nasirportfolio.github.io/CRM-Marketing-Automation/articles/0010-what-is-customer-segmentation.html</loc>
   </url>
+
   <url>
     <loc>https://nasirportfolio.github.io/CRM-Marketing-Automation/articles/0011-what-is-a-crm-strategy.html</loc>
   </url>
+
+  <url>
+    <loc>https://nasirportfolio.github.io/CRM-Marketing-Automation/articles/0012-what-is-crm-integration.html</loc>
+  </url>
+
+  <url>
+    <loc>https://nasirportfolio.github.io/CRM-Marketing-Automation/articles/0013-what-is-crm-data-management.html</loc>
+  </url>
+
+  <url>
+    <loc>https://nasirportfolio.github.io/CRM-Marketing-Automation/articles/0014-what-is-crm-data-quality.html</loc>
+  </url>
+
+  <url>
+    <loc>https://nasirportfolio.github.io/CRM-Marketing-Automation/articles/0015-what-is-crm-data-cleaning.html</loc>
+  </url>
+
 </urlset>
-```
